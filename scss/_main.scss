@@ -25,13 +25,14 @@
             margin: 2rem 0;
         }
         &__button-wrapper{
+            text-align: center;
             margin: 2rem 0;
         }
         &__button{
             display: inline-block;
             width: 100%;
-            min-width: 300px;
-            margin: .5rem 0;
+            min-width: 250px;
+            margin: .5rem .5rem;
             padding: 1rem;
             background-color: $button-bg-color-1;
             color: $font-color;
@@ -43,6 +44,9 @@
                 background-color: $button-bg-color-2;
                 color: $font-color-bright;
                 border: 2px solid $font-color-bright;
+            }
+            @media(min-width: 500px){
+                width: 35%;
             }
         }
     }

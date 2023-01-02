@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>npmjs</title>
     <link rel="stylesheet" href="./css/style.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" defer></script>
+    <script src="./js/animations.js" defer></script>
 </head>
 <body>
     <div class="colored-bar"></div>
@@ -48,7 +58,7 @@
         </div>
     </main>
     <section>
-        <article class="article">
+        <article class="article start-animation">
             <div class="article__content">
                 <div class="article__img-wrapper">
                     <img class="article__img-wrapper__img" src="./img/ck3uwed1cmso79y74pjugy10f-gak-2x.png" alt="">
@@ -71,7 +81,10 @@
     </section>
     <div class="border"></div>
     <footer class="footer">
-        <div class="footer__content">ikonki</div>
+        <div class="footer__content footer__content--images">
+            <a class="footer__img-link" href=""><img class="footer__img" src="./img/npm-outline-4.png" alt=""></a>
+            <a class="footer__img-link" href=""><img class="footer__img" src="./img/Octicons-mark-github.svg" alt=""></a>
+        </div>
         <div class="footer__content">
             <h6 class="footer__title">Support</h6>
             <ul class="footer-list">
