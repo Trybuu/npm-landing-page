@@ -1,0 +1,17 @@
+.nav{
+    &__list{
+        @include flex-row-end;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 1rem;
+        list-style: none;
+    }
+    &__link{
+        padding-left: 1rem;
+        font-size: .8rem;
+        transition: .2s ease-in-out;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}

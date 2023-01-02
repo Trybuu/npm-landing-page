@@ -1,0 +1,12 @@
+.header{
+    margin: 0 auto;
+    &__center{
+        @include flex-row-space-between;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 1rem;
+        &__logo{
+            height: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@400;500&display=swap');
+// Typography
+h1,h2,h3,h4,h5,h6,a, button{
+    font-family: 'Poppins', 'Sans-serif';
+}
+
+p{
+    font-family: 'Arimo', 'Sans-serif';
+    line-height: 1.8rem;
+}
+
+a{
+    color: $font-color;
+    text-decoration: none;
+    // &:visited{
+    //     color: $font-color;
+    // }
+}
+
+// Links buttons like
+.link--border-transparent{
+    padding: .5rem 1rem;
+    border: 1px solid $border-color;
+    transition: .2s ease-in-out;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+
+.link--transparent{
+    padding: .5rem 1rem;
+    border: none;
+    transition: .2s ease-in-out;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+
+.colored-bar{
+    width: 100vw;
+    height: 1rem;
+    background: rgb(251,121,17);
+    background: linear-gradient(90deg, rgba(251,121,17,1) 0%, rgba(195,34,37,1) 75%, rgba(211,38,166,1) 100%);
+}
+
+.border{
+    width: 100vw;
+    height: 1px;
+    background-color: $border-color;
+}

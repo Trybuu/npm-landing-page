@@ -1,0 +1,37 @@
+.article{
+    padding: 4rem 1rem 4rem 1rem;
+    &:nth-child(1){
+        padding: 0 1rem 4rem 1rem;
+    }
+    &--we-love-open-source{
+        background-image: url('./../img/3dc2ca3d2e53fc894b904d917cf90015.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: $font-color-bright;
+    }
+    &__content{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    &__img-wrapper{
+        @include flex-column-center;
+        height: 15rem;
+        &__img{
+            display: block;
+            height: 50%;
+            margin: 0 auto;
+            // transition: .5s;
+            // &:hover{
+            //     transform: scale(1.2);
+            // }
+        }
+    }
+    &__title{
+        text-align: center;
+        margin: 1rem 0;
+    }
+    &__para{
+        text-align: center;
+    }
+}

@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 1rem;
+    &__content{
+        width: 100%;
+        max-width: 440px;
+    }
+    &__title{
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        margin: 1rem 0;
+    }
+}
+
+.footer-list{
+    list-style: none;
+    &__element{
+        margin-bottom: .5rem;
+    }
+    &__link{
+        letter-spacing: 1px;
+    }
+}
